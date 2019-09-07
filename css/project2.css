@@ -1,0 +1,42 @@
+body{
+  background-color: pink;
+}
+
+img{
+  width: 100%;
+  height:100%;
+}
+
+#everything{
+  margin: 5em;
+  border: solid purple 1px;
+  padding: 2em;
+  width: 30%;
+  height: 15em;
+}
+
+#img1{
+  background-color: #FF69B4;
+}
+#img2{
+  background-color: #c1f0ff;
+}
+#img3{
+  background-color: #9370DB;
+}
+
+
+#placeImg1, #placeImg2, #placeImg3{
+  width: 10em;
+  height: 10em;
+  margin-bottom: 2em;
+}
+
+.imgButton{
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0.5em;
+}
+.imgButton:hover{
+  cursor: pointer;
+}

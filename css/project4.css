@@ -1,0 +1,59 @@
+body{
+  background-color: #d9f7ec;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+#left{
+  width: 2em;
+  height: 2em;
+  float: left;
+}
+#right{
+  width: 2em;
+  height: 2em;
+  float: right;
+}
+#left:hover, #right:hover{
+  cursor: pointer;
+}
+
+.bigImg{
+  width: 99%;
+  height: 35em;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+#smallImg{
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  margin: auto;
+}
+
+.thing{
+  width: 8em;
+  height: 9em;
+  display:inline-block;
+  margin-right: 1em;
+  margin-top: 0.5em;
+}
+
+#thing1:hover, #thing2:hover, #thing3:hover, #thing4:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#text{
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  text-align: center;
+}

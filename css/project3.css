@@ -1,0 +1,45 @@
+body{
+  background-color: gray;
+}
+
+#everything{
+  width: 90%;
+  height: 15em;
+  margin: auto;
+}
+
+.tab{
+  float: left;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  width: 30%;
+  height: auto;
+
+}
+
+.tab:hover{
+  background-color: white;
+  color: black;
+  padding: 1em;
+  width: 30%;
+  height: auto;
+  cursor: pointer;
+}
+.clicked{
+  background-color: white;
+  color: black;
+  padding: 1em;
+  width: 30%;
+  height: auto;
+}
+
+#text{
+  background-color: white;
+  color: black;
+  width: 90%;
+  height: 20em;
+  padding: 1.5em;
+  font-size: 2em;
+  float: left;
+}
